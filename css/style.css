@@ -72,7 +72,7 @@ figcaption {
 }
 /*Media*/
 img, video, audio {
-  max-width: 100%;
+  max-width: 100%; /*keeps them within limits of column they're in, not out of bounds*/
 }
 
 /*Layout*/
@@ -113,4 +113,10 @@ img, video, audio {
 
 .first {
   margin-left: 0%;
+}
+
+/*Sections*/
+section {
+  margin-bottom: 20px;
+  padding: 20px;
 }
